@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="2c271c36-a33c-4be7-a1b0-30376e8c2969" name="@localhost Mapping">
+      <data-sources db="d93b7eac-3dda-462f-a7d8-6df7ab9bb343" />
+      <scope>
+        <node kind="schema" qname="hiber" />
+      </scope>
+    </mapping>
+  </component>
+</project>

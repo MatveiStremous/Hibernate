@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.example.hibernate.entity.Shop" table="shops">
+        <meta attribute="class-description">This class
+            contains developer's details.
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="name" type="java.lang.String"/>
+        <property name="profit" column="profit" type="float"/>
+        <property name="amountOfWorkers" column="amount_of_workers" type="int"/>
+        <property name="square" column="square" type="float"/>
+        <property name="averageSalary" column="average_salary" type="float"/>
+    </class>
+</hibernate-mapping>
